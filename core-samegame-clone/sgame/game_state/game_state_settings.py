@@ -1,0 +1,27 @@
+'''
+Created on Mar 26, 2016
+
+@author: Richard
+'''
+from pygame import Rect
+from constants.colours import BLUE, RED, GREEN, YELLOW
+
+GAME_STATE_COLOURS = (BLUE, RED, GREEN, YELLOW)
+
+GAME_STATE_GRID_CAMERA_RECT = Rect((0, 0), (400, 400))
+GAME_STATE_GRID_CAMERA_W = 15
+GAME_STATE_GRID_CAMERA_H = 15
+
+GAME_STATE_GAME_OVER_TEXT_RECT = Rect((150, 190), (100, 20))
+GAME_STATE_GAME_OVER_TEXT_FONT_SIZE = 18
+GAME_STATE_GAME_OVER_TEXT_WIN_TEXT = "You Win!"
+GAME_STATE_GAME_OVER_TEXT_LOSE_TEXT = "Game Over"
+
+GAME_STATE_SCORE_TEXT_RECT = Rect((10, 410), (390, 20))
+GAME_STATE_SCORE_TEXT_FONT_SIZE = 16
+
+def GAME_STATE_SCORE_FOR_CLUSTER(cluster):
+    return len(cluster.subelements) ** 2
+
+def GAME_STATE_SCORE_TEXT_FOR_SCORE(score):
+    return "Score: {0}".format(score)

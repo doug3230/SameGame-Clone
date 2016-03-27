@@ -4,7 +4,7 @@ Created on Mar 19, 2016
 @author: Richard
 '''
 import pygame
-from constants import BLACK
+from constants.colours import BLACK
 from elements import Element
 
 class Ellipse(Element):

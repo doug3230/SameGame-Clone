@@ -3,7 +3,7 @@ Created on Nov 15, 2014
 
 @author: Richard
 '''
-from constants import BLACK
+from constants.colours import BLACK
 from game import load_system_font
 from elements import Element
 

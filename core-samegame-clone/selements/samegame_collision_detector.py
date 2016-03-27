@@ -3,7 +3,7 @@ Created on Mar 19, 2016
 
 @author: Richard
 '''
-from algorithms import UnionNode, uf_find, uf_union
+from algorithms import uf_node, uf_find, uf_union
 from elements import GridRectCollisionDetector
 from selements import BubbleCluster
 
@@ -20,7 +20,7 @@ class SameGameCollisionDetector(GridRectCollisionDetector):
         uf_nodes = {}
         for element in self.grid_elements:
             uf_nodes[(element.grid_position.x, element.grid_position.y)] \
-            = UnionNode(element=element)
+            = uf_node(element=element)
         
         bubble = None
         x_neighbour = None

@@ -2,8 +2,7 @@ For players
 -------------
 A compiled Windows executable can be found at main/SameGame-Clone.exe
 
-This executable can be run anywhere but make sure that it is always in the
-same folder as main/files (as that's where any necessary images and sounds are kept).
+This executable can be run anywhere. In fact you can delete everything else and it will still work.
 
 
 For developers

@@ -3,7 +3,7 @@ Created on Mar 12, 2016
 
 @author: Richard
 '''
-from constants import BLACK
+from constants.colours import BLACK
 from elements import ElementCollection
 from text import Text
 

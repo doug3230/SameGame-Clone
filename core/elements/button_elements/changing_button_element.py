@@ -3,7 +3,7 @@ Created on Mar 16, 2016
 
 @author: Richard
 '''
-from constants import LIGHTER_GRAY
+from constants.colours import LIGHTER_GRAY
 from elements import DecorateElement, border
 from button_element import ButtonElement
 

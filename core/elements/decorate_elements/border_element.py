@@ -4,7 +4,7 @@ Created on May 31, 2015
 @author: Richard
 '''
 from copy import deepcopy
-from constants import BLACK
+from constants.colours import BLACK
 from elements import ElementCollection
 from decorate_element import DecorateElement
 
